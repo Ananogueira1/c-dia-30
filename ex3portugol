@@ -1,0 +1,22 @@
+programa
+{  
+    inteiro salario
+    inteiro porcentagemReajuste
+    inteiro salarioReajustado
+
+    funcao inicio
+    {
+        escreva ("Digite o valor do seu salario")
+        leia (salario)
+
+        porcentagemReajuste=(salario/100) *30;
+        salarioReajustado= salario + porcentagemReajuste;
+
+
+        se (salario < 500){
+            escreva ("Seu salario foi reajustado para: " + salarioReajustado)
+        } senao{
+            escreva ("Seu salario não foi reajustado")
+        }
+    }
+}

@@ -1,0 +1,22 @@
+programa
+{
+    inteiro anoPessoa
+    inteiro anoAtual
+    inteiro idade
+    inteiro semana
+
+    funcao inicio()
+    {
+        escreva ("Insira o ano de seu nascimento")
+        leia (anoPessoa)
+        escreva ("Insira o ano atual")
+        leia (anoAtual)
+        
+        idade= anoAtual - anoPessoa
+        semana= idade * 52
+
+        escreva ("Você tem: ")
+        escreva (idade+ " anos")
+        escreva (semana + " semanas")
+    }
+}

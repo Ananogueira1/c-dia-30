@@ -1,0 +1,35 @@
+programa 
+{
+    inteiro idade
+
+    funcao inicio
+    {
+        escreva ("Digite sua idade")
+
+        se(idade < 5){
+            escreva("Você não pode participar")
+        }
+        
+        senao se(idade < 8){
+            escreva ("Você pode participar do infantil A")
+        }
+
+        senao se(idade < 11){
+            escreva ("Você pode participar do infantil B")
+        }
+
+        senao se(idade < 14){
+            escreva ("Você pode participar do juvenil A")
+        }
+
+        senao se(idade < 18){
+            escreva ("Você pode participar do juvenil B")
+        }
+
+        senao{
+            escreva ("Você pode participar do Ssenior")
+        }
+
+
+    }
+}
